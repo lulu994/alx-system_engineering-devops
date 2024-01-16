@@ -12,7 +12,7 @@ def recurse(subreddit, hot_list=[], after=None):
         return None
     r = requests.get('http://www.reddit.com/r/{}/hot.json'.format(subreddit),
                      headers={'User-Agent': 'Python/requests:APIproject:\
-                     v1.0.0 (by /u/fraol21)'},
+                     v1.0.0 '},
                      params={'after': after}).json()
     after = r.get('data', {}).get('after', None)
     posts = r.get('data', {}).get('children', None)
