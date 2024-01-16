@@ -1,5 +1,7 @@
 # 0x16. API advanced
 
+![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/314/WIxXad8.png)
+
 This project involves writing a Python script to query the Reddit API and retrieve information about subreddits. The script includes functions to fetch the number of subscribers for a given subreddit and handle various scenarios such as invalid subreddit names.
 
 ## Project Structure
@@ -8,6 +10,15 @@ This project involves writing a Python script to query the Reddit API and retrie
 - `1-top_ten.py`: Write a function that queries the Reddit API and prints the titles of the first 10 hot posts for a given subreddit.
 - `2-recurse.py`: Write a recursive function that queries the Reddit API and returns a list containing the titles of all hot articles for a given subreddit.
 - `100-count.py`: Write a recursive function that queries the Reddit API, parses the title of all hot articles, and prints a sorted count of given keywords. The results should be printed in descending order by count, and if counts are the same, alphabetically.
+
+## Resources
+
+
+**Read or watch**:
+
+-   [Reddit API Documentation](https://alx-intranet.hbtn.io/rltoken/b-4nD6hwEeNYTwYl5yWNwA "Reddit API Documentation")
+-   [Query String](https://alx-intranet.hbtn.io/rltoken/luFn_zrgmAQ0OAO_PEI9bA "Query String")
+
 
 ## Requirements
 
